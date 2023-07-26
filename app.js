@@ -2,7 +2,7 @@ const sentence = document.querySelector(".sentence-to-write");
 const textareaToTest = document.querySelector(".textarea-to-test")
 let spansFromAPISentence;
 
-const APIEndpoint = "http://api.quotable.io/random";
+const APIEndpoint = "https://api.quotable.io/random";
 
 async function getNewSentence(){
 
